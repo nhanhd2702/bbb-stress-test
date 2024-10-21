@@ -5,7 +5,8 @@ services:
     build:
       context: .
       target: development
-    image: bbb-stress-test:development
+#    image: bbb-stress-test:development
+    image: nhanhd2702/bbb-stresstest:hnnv1
     working_dir: /app/
     user: ${DOCKER_USER:-1000}
     cap_add:
